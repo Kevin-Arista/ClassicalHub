@@ -1,4 +1,6 @@
-### Reac-Router-DOM
+# Debugging and Learning Log
+
+## Reac-Router-DOM
 
 <BrowserRouter>
 <Routes>
@@ -12,7 +14,7 @@ In the making of this project, I learned that we are in fact able to place our <
 
 In addition, we can nest <Route> inside other <Route> components. This may be helpful if your routes all have the same prefix path in common. In that case just make sure that the wrapper <Route> contains that common path and that at least one inside path is defined as default using the "index" attribute.
 
-### Dependencies
+## Dependencies
 
 npm i package_name --save-dev
 

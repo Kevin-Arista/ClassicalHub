@@ -1,0 +1,45 @@
+//@import url("https://fonts.googleapis.com/css2?family=Kranky&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kranky&display=swap");
+.NavComponent {
+	background-color: black;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 7rem;
+	box-sizing: border-box;
+
+	.Logo {
+		.nav-link {
+			img {
+				width: 75x;
+				height: 75px;
+				border-radius: 100%;
+			}
+		}
+	}
+
+	.nav-links {
+		.nav-link {
+			color: white;
+			text-decoration: none;
+			// font-family: "Kranky", serif;
+			// font-weight: 400;
+			// font-style: normal;
+			font-family: "Inter", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 400;
+			font-size: 35px;
+			font-style: normal;
+
+			&:hover {
+				color: rgb(120, 120, 120);
+			}
+		}
+		display: flex;
+		gap: 5rem;
+	}
+}

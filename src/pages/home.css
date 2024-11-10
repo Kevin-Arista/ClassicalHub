@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kranky&display=swap");
+
+.Home {
+	width: 100vw;
+	background-image: url("./staffBg.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: -22px;
+	background-size: cover;
+}
+
+.nav-space {
+	height: 9vh;
+}
+
+.right-column {
+	text-align: right;
+	margin-left: 50vw;
+	width: 45vw;
+}
+
+.welcome {
+	margin-top: 130px;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-size: 90px;
+	font-style: normal;
+}
+
+.classicalhub {
+	margin-top: -30px;
+	font-family: "Kranky", serif;
+	font-weight: 400;
+	font-size: 125px;
+	text-decoration: underline;
+	text-decoration-thickness: 9px;
+	text-underline-offset: 20px;
+	font-style: normal;
+}
+
+.subheading {
+	margin-top: 80px;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-size: 50px;
+	font-style: normal;
+}
+.intro-card {
+	margin-bottom: 300px;
+}

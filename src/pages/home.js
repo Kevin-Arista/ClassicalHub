@@ -5,7 +5,7 @@ import "./home.css";
 function Home(props) {
 	return (
 		<div className="Home">
-			<div className="nav-space"></div>
+			<div style={{ height: "9vh" }}></div>
 			<div className="right-column">
 				<div className="intro-card">
 					<h1 className="welcome">Welcome to</h1>
@@ -16,7 +16,7 @@ function Home(props) {
 				</div>
 
 				<div className="banners-container">
-					<h1 className="banner">Explore your musical interest!</h1>
+					<h1 className="banner">Explore your musical interest today!</h1>
 
 					<h1 className="banner">Find lessons near you!</h1>
 				</div>

@@ -1,0 +1,15 @@
+.Locations {
+	padding: 0px 15vw;
+}
+.map-container {
+	border: 10px black groove;
+	height: 70vh;
+	width: 98%;
+	margin-bottom: 5vh;
+}
+
+.card-row {
+	display: flex;
+	justify-content: space-between;
+	margin: 10vh 0;
+}

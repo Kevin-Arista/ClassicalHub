@@ -8,13 +8,18 @@
 	margin-bottom: -22px;
 	background-size: cover;
 }
-
+.intro-card {
+	margin-bottom: 300px;
+}
 .right-column {
 	text-align: right;
 	margin-left: 50vw;
 	width: 45vw;
 }
 
+.intro-card h1 {
+	opacity: 0;
+}
 .welcome {
 	margin-top: 130px;
 	font-family: "Inter", sans-serif;
@@ -22,8 +27,9 @@
 	font-weight: 400;
 	font-size: 90px;
 	font-style: normal;
+	animation: fadeInSlide 1s ease forwards;
+	animation-delay: 0.5s;
 }
-
 .classicalhub {
 	margin-top: -30px;
 	font-family: "Kranky", serif;
@@ -33,6 +39,18 @@
 	text-decoration-thickness: 9px;
 	text-underline-offset: 20px;
 	font-style: normal;
+	animation: fadeInSlide 1s ease forwards;
+	animation-delay: 1s;
+}
+.subheading {
+	margin-top: 80px;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-size: 50px;
+	font-style: normal;
+	animation: fadeInSlide 1s ease forwards;
+	animation-delay: 1.5s;
 }
 .banner {
 	font-family: "Inter", sans-serif;
@@ -47,15 +65,24 @@
 	border-radius: 40px;
 	padding: 40px;
 	text-align: center;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.subheading {
-	margin-top: 80px;
-	font-family: "Inter", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 400;
-	font-size: 50px;
-	font-style: normal;
+.banner:hover {
+	transform: translateY(-10px);
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 .intro-card {
 	margin-bottom: 300px;
+}
+
+@keyframes fadeInSlide {
+	from {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }

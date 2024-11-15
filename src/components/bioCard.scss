@@ -13,7 +13,7 @@
 	background-color: black;
 	color: white;
 	padding: 5vw;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 	.text-container {
 		text-align: left;
 		width: 40%;
@@ -43,9 +43,4 @@
 		height: 45vh;
 		border-radius: 20px;
 	}
-}
-
-.card-container:hover {
-	transform: translateY(-10px);
-	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }

@@ -2,7 +2,7 @@
 
 .Home {
 	width: 100vw;
-	background-image: url("./staffBg.png");
+	background-image: url("../assets/staffBg.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin-bottom: -22px;

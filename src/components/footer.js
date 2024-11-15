@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer(props) {
 	return (
 		<div className="footer">
-			<p>Developer: Kevin Arista Solis, Designer: Martha Sinai Castro</p>
+			<p>Developed by Kevin Arista Solis | Designed by Martha Sinai Castro</p>
 		</div>
 	);
 }

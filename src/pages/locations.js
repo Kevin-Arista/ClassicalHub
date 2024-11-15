@@ -8,8 +8,9 @@ function Locations(props) {
 			<div style={{ height: "15vh" }}></div>
 			<iframe
 				className="map-container"
-				title="map-container"
-				src="https://www.google.com/maps/d/u/0/embed?mid=14HR6Ov6_nQwviTEIL-HuIDPG4RVCNDY&ehbc=2E312F"></iframe>
+				src="https://www.google.com/maps/d/u/7/embed?mid=1NIg4BgSx5HuC3NKGj6psfsecvW4yDqg&ehbc=2E312F&noprof=1"
+				width="640"
+				height="480"></iframe>
 			<div className="info-cards-container">
 				<div className="card-row">
 					<InfoCard></InfoCard>
@@ -19,6 +20,14 @@ function Locations(props) {
 					<InfoCard></InfoCard>
 					<InfoCard></InfoCard>
 				</div>
+			</div>
+			<div className="card-row">
+				<InfoCard></InfoCard>
+				<InfoCard></InfoCard>
+			</div>
+			<div className="card-row">
+				<InfoCard></InfoCard>
+				<InfoCard></InfoCard>
 			</div>
 			<div className="card-row">
 				<InfoCard></InfoCard>

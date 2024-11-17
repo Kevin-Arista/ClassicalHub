@@ -20,8 +20,18 @@ In addition, we can nest `<Route>` inside other `<Route>` components. This may b
 
 First off, dependencies are any libraries we installed for our application to run. While developing I learned that we can use --save-dev to store our dependency under devDependencies in package.json file in order to flag it as a library only neccessesry during development process, but not needed during the production of the application.
 
+## rendering components with `map()` (importance of `key=""`)
+
+Everytime we render component using the map function, we mut also give each component the attribute `key`. `key` should contain a unique value such that it makes an indentifier for our component. React uses this key to keep track of deleted, updated, or added components. For our hard-coded DB, we used the index of each object in our database.
+
+## props
+
+Two types: currly braces method and `prop.varName` method (deconstructing method)
+
 ## `npm test`
 
 I began experimenting with test for jest to run to get the gist of making my own tests during production before deployment. By running `npm test` we are able to execute all files with the extension .test and thus run the function `test()`. `test()` will execute three things: (1) render the components to observe (2) define expected output (3) compare rendered object with expected object
 
 NOTE: It is important for your dependencies to have a version of `@testing-library/react` inside package.json to be compatible with tests. It is also vital to wrap our components inside a `<BrowserRouter>` tag since it is also needed in our testing enviroment.
+
+run `npm test` to run all test found inside `App.test.js`

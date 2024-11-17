@@ -3,46 +3,45 @@
 	display: flex;
 	justify-content: center;
 	margin-bottom: 75px;
-}
-
-.card-container {
-	display: flex;
-	width: 80vw;
-	justify-content: space-around;
-	align-items: center;
-	background-color: rgba($color: #fff, $alpha: 0.95);
-	border: 8px solid black;
-	color: black;
-	padding: 5vw;
-
-	.text-container {
-		text-align: left;
-		width: 40%;
-		margin: 0px -5%;
-		h1 {
-			margin: 0px;
-			font-family: "Inter", sans-serif;
-			font-optical-sizing: auto;
-			font-weight: 400;
-			font-size: 75px;
-			font-style: normal;
-		}
-		p {
-			margin-top: 10vh;
-			font-family: "Inter", sans-serif;
-			font-size: 20px;
-			line-height: 1.5;
-			line-height: 2.5rem;
-		}
-	}
-	.vl {
-		height: 95%;
-		border-left: solid 5px black;
-	}
-	.bioPicture {
-		width: 25vw;
-		height: 50vh;
-		border-radius: 20px;
+	.card-container {
+		display: flex;
+		width: 80vw;
+		justify-content: space-around;
+		align-items: center;
+		background-color: rgba($color: #fff, $alpha: 0.95);
 		border: 8px solid black;
+		color: black;
+		padding: 5vw;
+
+		.text-container {
+			text-align: left;
+			width: 40%;
+			margin: 0px -5%;
+			h1 {
+				margin: 0px;
+				font-family: "Inter", sans-serif;
+				font-optical-sizing: auto;
+				font-weight: 400;
+				font-size: 75px;
+				font-style: normal;
+			}
+			p {
+				margin-top: 10vh;
+				font-family: "Inter", sans-serif;
+				font-size: 20px;
+				line-height: 1.5;
+				line-height: 2.5rem;
+			}
+		}
+		.vl {
+			height: 95%;
+			border-left: solid 5px black;
+		}
+		.bioPicture {
+			width: 25vw;
+			height: 50vh;
+			border-radius: 20px;
+			border: 8px solid black;
+		}
 	}
 }

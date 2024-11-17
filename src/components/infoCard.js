@@ -1,26 +1,27 @@
 import React from "react";
 import "./infoCard.scss";
-import externalLink from "../assets/external-link.png";
-import phone from "../assets/phone-call.png";
+import linkIcon from "../assets/external-link.png";
+import phoneIcon from "../assets/phone-call.png";
 
-function InfoCard(props) {
+function InfoCard({
+	orgName = "Lorem",
+	description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat risus sed risus pharetra, vitae blandit purus suscipit. Integer sagittis dictum venenatis. Fusce felis felis, sollicitudin eu magna vel, laoreet porta quam. Mauris at pharetra lorem. Nulla enim mi, consequat at neque at, suscipit blandit risus. Donec consectetur nisi cursus urna tristique, eu dictum augue luctus.",
+	link = "/locations",
+	phone = "Not Available",
+}) {
 	return (
 		<div className="infoCard">
-			<h1>YOLA</h1>
+			<h1>{orgName}</h1>
 			<hr />
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-				placerat risus sed risus pharetra, vitae blandit purus suscipit. Integer
-				sagittis dictum venenatis. Fusce felis felis, sollicitudin eu magna vel,
-				laoreet porta quam. Mauris at pharetra lorem. Nulla enim mi, consequat
-				at neque at, suscipit blandit risus. Donec consectetur nisi cursus urna
-				tristique, eu dictum augue luctus.
-			</p>
+			<p>{description}</p>
 			<div className="icon-row">
-				<a href="https://www.laphil.com/learn/yola/youth-orchestra-los-angeles">
-					<img src={externalLink} />
+				<a href={link}>
+					<img src={linkIcon} />
 				</a>
-				<img src={phone} />
+				<div className="tooltip-container">
+					<img src={phoneIcon} alt="Phone Icon" />
+					<span className="tooltip">{phone}</span>
+				</div>
 			</div>
 		</div>
 	);

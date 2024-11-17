@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kranky&display=swap");
+
 .Locations {
 	padding: 0px 15vw;
 }
@@ -5,11 +7,20 @@
 	border: 15px black groove;
 	height: 70vh;
 	width: 98%;
-	margin-bottom: 5vh;
+	margin-bottom: 1vh;
 }
-
-.card-row {
+.map-container h1 {
+	text-decoration: underline;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-size: 30px;
+	font-style: normal;
+}
+.info-cards-container {
 	display: flex;
 	justify-content: space-between;
-	margin: 10vh 0;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 10vh;
 }

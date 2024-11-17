@@ -10,8 +10,9 @@
 	width: 80vw;
 	justify-content: space-around;
 	align-items: center;
-	background-color: black;
-	color: white;
+	background-color: rgba($color: #fff, $alpha: 0.95);
+	border: 8px solid black;
+	color: black;
 	padding: 5vw;
 
 	.text-container {
@@ -35,12 +36,13 @@
 		}
 	}
 	.vl {
-		height: 90%;
-		border-left: solid 5px white;
+		height: 95%;
+		border-left: solid 5px black;
 	}
 	.bioPicture {
-		width: 22vw;
-		height: 45vh;
+		width: 25vw;
+		height: 50vh;
 		border-radius: 20px;
+		border: 8px solid black;
 	}
 }

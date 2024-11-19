@@ -5,58 +5,28 @@ import EventCard from "../components/eventCard";
 const Events = (props) => {
 	const events = [
 		{
-			name: "Music Festival",
-			date: "2024-11-20",
-			time: "10:00 AM",
-			location: "New York",
-		},
-		{
-			name: "Art Workshop",
-			date: "2024-11-21",
-			time: "2:00 PM",
-			location: "Los Angeles",
-		},
-		{
-			name: "Tech Conference",
+			name: "LAYO Concert",
 			date: "2024-11-25",
-			time: "9:00 AM",
-			location: "San Francisco",
+			time: "7:30 PM",
+			location: "131 S St. John Ave Pasadena, CA 91123",
 		},
 		{
-			name: "Music Festival",
-			date: "2024-11-20",
-			time: "10:00 AM",
-			location: "New York",
+			name: "Sounds like LA Holiday Concert",
+			date: "2024-12-15",
+			time: "3:00 PM",
+			location: "1225 Broadway, Santa Monica",
 		},
 		{
-			name: "Art Workshop",
-			date: "2024-11-21",
-			time: "2:00 PM",
-			location: "Los Angeles",
+			name: "ICYOLA Symphony Christmas Concert",
+			date: "2024-12-21",
+			time: "6:00 PM",
+			location: "4401 W. 8th St., Los Angeles, CA, 90005",
 		},
 		{
-			name: "Tech Conference",
-			date: "2024-11-25",
-			time: "9:00 AM",
-			location: "San Francisco",
-		},
-		{
-			name: "Music Festival",
-			date: "2024-11-20",
-			time: "10:00 AM",
-			location: "New York",
-		},
-		{
-			name: "Art Workshop",
-			date: "2024-11-21",
-			time: "2:00 PM",
-			location: "Los Angeles",
-		},
-		{
-			name: "Tech Conference",
-			date: "2024-11-25",
-			time: "9:00 AM",
-			location: "San Francisco",
+			name: "Pasadena Youth Symphony Winter Concert",
+			date: "2024-12-07",
+			time: "7:00 PM",
+			location: "131 S St. John Ave Pasadena, CA 91123",
 		},
 	];
 

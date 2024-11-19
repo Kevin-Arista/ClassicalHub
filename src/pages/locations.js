@@ -13,7 +13,8 @@ function Locations(props) {
 		{
 			name: "YOLA at Torres",
 			description:
-				"Found inside Esteban E. Torres High School performing arts magnet school in East L.A., YOLA at Torres offers students the opportunity to thrive in an intensive, nurturing musical environment, receiving up to 15 hours of musical instruction and academic tutoring per week",
+				"Found inside Esteban E. Torres High School performing arts magnet school in East L.A., YOLA at Torres offers students the opportunity to thrive in an intensive, nurturing musical environment, receiving up to 15 hours of musical instruction and academic tutoring per week.",
+
 			link: "https://www.laphil.com/learn/yola/youth-orchestra-los-angeles",
 		},
 		{
@@ -25,7 +26,7 @@ function Locations(props) {
 		{
 			name: "YOLA at Camino Nuevo",
 			description:
-				"YOLA at Camino Nuevo is the first in-school YOLA model, allowing the LA Phil to bring rigorous music education into the school day and extend it after school. Currently serving students in grades K-10, YOLA at Camino has grown to three orchestras receiving up to 14 hours of musical instruction per week.",
+				"YOLA at Camino Nuevo is the first in-school YOLA model, allowing the LA Phil to bring rigorous music education into the school day and extend it after school. Currently serving students in grades K-10, YOLA at Camino has grown to three orchestras receiving up to 14 hours of musical instruction per week. Check it out!",
 			link: "https://www.laphil.com/learn/yola/youth-orchestra-los-angeles",
 		},
 		{
@@ -37,7 +38,7 @@ function Locations(props) {
 		{
 			name: "Harmony Project at Expo Center",
 			description:
-				"Harmony Project uses the transformative power of music to open up life-changing experiences to students in under-resourced communities, and seeks to maximize their opportunities for success. Serve students ages 6 to 18 and have two full-sized orchestras, as well as wind and string ensembles. ",
+				"Harmony Project uses the transformative power of music to open up life-changing experiences to students in under-resourced communities, and seeks to maximize their opportunities for success. Serve students ages 6 to 18 and have two full-sized orchestras, as well as wind and string ensembles. Partnership between YOLA and Expo Center.",
 			link: "https://www.harmony-project.org/",
 		},
 		{
@@ -49,11 +50,11 @@ function Locations(props) {
 		{
 			name: "Inner City Youth Orchestra Los Angeles",
 			description:
-				"ICYOLA transforms the lives and minds of young people in Inner City Los Angeles through high quality music education. We teach inner-city youth the great music of the world and provide opportunities for them to perform that music in the most magnificent settings of our community.",
+				"ICYOLA transforms the lives and minds of young people in Inner City Los Angeles through high quality music education. We teach inner-city youth the great music of the world and provide opportunities for them to perform that music in the most magnificent settings of our community. Also the the largest majority Black orchestra in America.",
 			link: "https://icyola.org/",
 		},
 		{
-			name: "Sounds like LA at Santa Monica",
+			name: "Sounds like LA",
 			description:
 				"Sounds Like LA offers tuition-free music education and public concerts to diverse communities in the LA area, harnessing the power of music to bridge economic and cultural differences and to foster personal and social change.",
 			link: "https://soundslikela.org/",

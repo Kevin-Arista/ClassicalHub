@@ -20,7 +20,7 @@ The website consists of three main pages:
 
 Classical Hub was developed and co-designed by [Kevin Arista Solis](https://www.linkedin.com/in/kevin-arista/), a freelance web developer passionate about creating impactful digital solutions for the underserved and underresourced communities. While being a full-time student at Columbia University, he decided to work with John to take John's senior capstone project idea into real life! This project is Kevin's first freelance venture, and it reflects his commitment to making resources accessible through technology.
 
-#### Feel free to look at DebugLog.md where I posted all my learning experiences / clear ups while making the site!
+Feel free to look at DebugLog.md where I posted all my learning experiences / clear ups while making the site!
 
 ### About our Graphics Designer
 

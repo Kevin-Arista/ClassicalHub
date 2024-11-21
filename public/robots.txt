@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /src/DebugLog.md
+Disallow: /src/App.test.js
+
+Sitemap: https://classicalhub.onrender.com/sitemap.xml

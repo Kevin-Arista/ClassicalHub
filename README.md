@@ -1,11 +1,25 @@
-# ClassicalHub
+# Classical Hub
 
-## Description
+Classical Hub is a resource center designed to connect youth, from middle school to high school, with opportunities to learn classical instruments for free. Partnering with non-profits, this platform aims to make music education accessible to underprivileged communities.
 
-## Developer and Designer
+## Website Structure
 
-## Icon Attributions
+The website consists of three main pages:
 
-<a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone icons created by Prosymbols - Flaticon</a>
+1. **Home**: An introduction to the mission of Classical Hub, featuring a static background and moving text for visual appeal.
+2. **Locations**: A comprehensive list of non-profit organizations and venues offering free classical instrument lessons.
+3. **Events**: Information about upcoming music-related events, including workshops, concerts, and community gatherings.
 
-<a href="https://www.flaticon.com/free-icons/external-link" title="external link icons">External link icons created by Bharat Icons - Flaticon</a>
+## Technologies Used
+
+- **HTML/CSS**: For structuring and styling the website.
+- **JavaScript**: To add interactivity and dynamic elements.
+- **Framework**: React
+
+## About the Developer
+
+Classical Hub was developed and co-designed by Kevin Arista Solis (https://www.linkedin.com/in/kevin-arista/), a freelance web developer passionate about creating impactful digital solutions for the underserved and underresourced communities. While being a full-time student at Columbia University, he decided to work with John to take John's senior capstone project idea into real life! This project is Kevin's first freelance venture, and it reflects his commitment to making resources accessible through technology.
+
+### About our Graphics Designer
+
+[Martha Sinai Castro](https://www.linkedin.com/in/martha-s-castro/) is a commited artist who takes her visions to another level with just her pen and tablet! Inspired by a shared vision to promote equitable access to music education, she is studying Urban Studies at Barnad College.

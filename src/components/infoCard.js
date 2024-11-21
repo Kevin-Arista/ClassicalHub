@@ -1,7 +1,6 @@
 import React from "react";
 import "./infoCard.scss";
-import linkIcon from "../assets/external-link.png";
-import phoneIcon from "../assets/phone-call.png";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function InfoCard({
 	orgName = "Lorem",
@@ -18,8 +17,8 @@ function InfoCard({
 			</p>
 
 			<div className="icon-row">
-				<a href={link} target="_blank">
-					<img src={linkIcon} />
+				<a href={link} target="_blank" rel="noopener noreferrer">
+					<FaExternalLinkAlt size={50} color="black" />
 				</a>
 			</div>
 		</div>

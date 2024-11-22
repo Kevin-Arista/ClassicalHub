@@ -3,3 +3,8 @@
 	color: white;
 	padding: 10px;
 }
+@media screen and (max-width: 1250px) {
+	p {
+		font-size: 12px;
+	}
+}

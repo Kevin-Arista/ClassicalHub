@@ -4,7 +4,7 @@
 	position: fixed;
 	left: 0px;
 	top: 0px;
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -38,5 +38,33 @@
 		}
 		display: flex;
 		gap: 5rem;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.NavComponent {
+		flex-direction: column;
+		z-index: 9999;
+		padding: 1rem 7rem;
+		width: 100vw;
+
+		.Logo {
+			.nav-link {
+				img {
+					width: 45x;
+					height: 45px;
+					border-radius: 100%;
+				}
+			}
+		}
+
+		.nav-links {
+			.nav-link {
+				font-size: 30px;
+			}
+			display: flex;
+			flex-direction: row;
+			margin-top: 3vh;
+		}
 	}
 }

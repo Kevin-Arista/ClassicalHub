@@ -32,57 +32,65 @@ const Events = (props) => {
 			name: "YOLA at Torres Concert",
 			date: "2024-11-22",
 			time: "6:00 PM",
-			locations: "4211 Dozier St, Los Angeles, CA 90063",
+			location: "4211 Dozier St, Los Angeles, CA 90063",
 		},
 		{
 			name: "YOLA at HOLA Concert",
 			date: "2024-12-11",
 			time: "6:00 PM",
-			locations: "615 La Fayette Park Pl, Los Angeles, CA 90057",
+			location: "615 La Fayette Park Pl, Los Angeles, CA 90057",
 		},
 		{
 			name: "YOLA at HOLA Concert",
 			date: "2024-12-12",
 			time: "6:00 PM",
-			locations: "615 La Fayette Park Pl, Los Angeles, CA 90057",
+			location: "615 La Fayette Park Pl, Los Angeles, CA 90057",
 		},
 		{
 			name: "YOLA at Inglewood Concert",
 			date: "2024-12-05",
 			time: "6:00 PM",
-			locations: "101 S La Brea Ave, Inglewood, CA 90301",
+			location: "101 S La Brea Ave, Inglewood, CA 90301",
 		},
 		{
 			name: "YOLA at Inglewood Concert",
 			date: "2024-12-06",
 			time: "6:00 PM",
-			locations: "101 S La Brea Ave, Inglewood, CA 90301",
+			location: "101 S La Brea Ave, Inglewood, CA 90301",
 		},
 		{
 			name: "Walt Disney Concert Hall",
 			date: "2024-12-21",
 			time: "2:00 PM",
-			locations: "111 S Grand Ave, Los Angeles, CA 90012",
+			location: "111 S Grand Ave, Los Angeles, CA 90012",
 		},
 		{
 			name: "Walt Disney Concert Hall",
 			date: "2024-12-21",
 			time: "8:00 PM",
-			locations: "111 S Grand Ave, Los Angeles, CA 90012",
+			location: "111 S Grand Ave, Los Angeles, CA 90012",
 		},
 		{
 			name: "Walt Disney Concert Hall",
 			date: "2024-12-22",
 			time: "2:00 PM",
-			locations: "111 S Grand Ave, Los Angeles, CA 90012",
+			location: "111 S Grand Ave, Los Angeles, CA 90012",
 		},
 		{
 			name: "Walt Disney Concert Hall",
-			date: "2024-12-22",
+			date: "2024-12-223",
 			time: "8:00 PM",
-			locations: "111 S Grand Ave, Los Angeles, CA 90012",
+			location: "111 S Grand Ave, Los Angeles, CA 90012",
 		},
 	];
+
+	events.sort((a, b) => {
+		if (a.date.slice(5, 7) < b.date.slice(5, 7)) return -1;
+		if (a.date.slice(5, 7) > b.date.slice(5, 7)) return 1;
+
+		if (a.date.slice(8) < b.date.slice(8)) return -1;
+		if (a.date.slice(8) > b.date.slice(8)) return 1;
+	});
 
 	return (
 		<div className="events">

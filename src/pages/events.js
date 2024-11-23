@@ -78,7 +78,7 @@ const Events = (props) => {
 		},
 		{
 			name: "Walt Disney Concert Hall",
-			date: "2024-12-223",
+			date: "2024-12-22",
 			time: "8:00 PM",
 			location: "111 S Grand Ave, Los Angeles, CA 90012",
 		},

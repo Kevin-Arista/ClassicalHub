@@ -12,7 +12,7 @@ function EventCard({
 		<div className="event-card">
 			<p className="event-name">{eventName}</p>
 			<p className="event-date">
-				<FaCalendarAlt /> {new Date(eventDate).toLocaleDateString()}
+				<FaCalendarAlt /> {eventDate}
 			</p>
 			<p className="event-time">
 				<FaClock /> {eventTime}

@@ -9,7 +9,7 @@ function EventCard({
 	eventLocation = "NULL",
 }) {
 	return (
-		<div className="event-card">
+		<div className="event-card" data-testid="event-card">
 			<p className="event-name">{eventName}</p>
 			<p className="event-date">
 				<FaCalendarAlt />

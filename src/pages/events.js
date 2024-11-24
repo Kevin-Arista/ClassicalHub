@@ -28,7 +28,6 @@ const Events = (props) => {
 				<div className="card-container">
 					{upcomingEvents.map((event, index) => (
 						<EventCard
-							data-testid="event-card"
 							key={index}
 							eventName={event.name}
 							eventDate={event.date}

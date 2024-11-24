@@ -12,7 +12,8 @@ function EventCard({
 		<div className="event-card">
 			<p className="event-name">{eventName}</p>
 			<p className="event-date">
-				<FaCalendarAlt /> {eventDate}
+				<FaCalendarAlt />
+				{new Date(eventDate + "T00:00:00-08:00").toDateString()}
 			</p>
 			<p className="event-time">
 				<FaClock /> {eventTime}

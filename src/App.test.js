@@ -8,6 +8,13 @@ test("Successfully Renders NavBar!", () => {
 			<App />
 		</BrowserRouter>
 	);
-	const linkElement = screen.getByText(/home page/i);
-	expect(linkElement).toBeInTheDocument();
+	const linkLocations = screen.getByText(/Locations/);
+	const linkEvents = screen.getByText(/Events/);
+
+	expect(linkLocations).toBeInTheDocument();
+	expect(linkEvents).toBeInTheDocument();
+
+	const logoImage = screen.getByAltText("app logo");
+	expect(logoImage).toBeInTheDocument();
+	expect(logoImage).toHaveAttribute("src", "logo.png");
 });

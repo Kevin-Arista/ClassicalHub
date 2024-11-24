@@ -20,7 +20,7 @@ const events = [
 	{
 		name: "Pasadena Youth Symphony Winter Concert",
 		date: "2024-12-07",
-		time: "7:00 PM",
+		time: "3:30 PM",
 		location: "131 S St. John Ave Pasadena, CA 91123",
 	},
 	{
